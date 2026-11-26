@@ -1,0 +1,15 @@
+# MATLAB / Simulink 生成物
+*.slxc
+*.slx.r*
+*.autosave
+*.asv
+*.mex*
+slprj/
+codegen/
+
+# 本工程生成的模型与结果
+models/*.slx
+results/
+
+# 保持目录结构
+!models/.gitkeep
